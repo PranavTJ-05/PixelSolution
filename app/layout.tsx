@@ -8,7 +8,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Elite Hardware Services',
+  title: 'Pixel Solutions',
   description: 'Premium hardware services and solutions for modern living',
 };
 

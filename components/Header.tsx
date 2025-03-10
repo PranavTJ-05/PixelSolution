@@ -33,7 +33,7 @@ export default function Header() {
           <div className="flex items-center gap-8">
             <Link href="/">
               <Image
-                src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&fit=crop&q=80"
+                src="/logohere.jpeg"
                 alt="Pixel Solutions"
                 width={150}
                 height={40}
@@ -54,12 +54,12 @@ export default function Header() {
                             <h4 className="font-medium">{device}</h4>
                             <ul className="space-y-1 text-sm">
                               <li>
-                                <Link href="#" className="block p-2 hover:bg-accent">
+                                <Link href="/" className="block p-2 hover:bg-accent">
                                   Extended Warranty
                                 </Link>
                               </li>
                               <li>
-                                <Link href="#" className="block p-2 hover:bg-accent">
+                                <Link href="/" className="block p-2 hover:bg-accent">
                                   Maintenance & Repair
                                 </Link>
                               </li>
@@ -102,9 +102,6 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-6">
             <Link href="/cart" className="relative">
               <ShoppingCart className="h-6 w-6" />
-              <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-                0
-              </span>
             </Link>
 
             <DropdownMenu>
