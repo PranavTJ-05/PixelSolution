@@ -54,12 +54,12 @@ export default function Header() {
                             <h4 className="font-medium">{device}</h4>
                             <ul className="space-y-1 text-sm">
                               <li>
-                                <Link href="/" className="block p-2 hover:bg-accent">
+                                <Link href={`/extended-warranty?device=${device}`} className="block p-2 hover:bg-accent">
                                   Extended Warranty
                                 </Link>
                               </li>
                               <li>
-                                <Link href="/" className="block p-2 hover:bg-accent">
+                                <Link href={`/maintenance?device=${device}`} className="block p-2 hover:bg-accent">
                                   Maintenance & Repair
                                 </Link>
                               </li>
@@ -69,7 +69,7 @@ export default function Header() {
                       </div>
                     </NavigationMenuContent>
                   </NavigationMenuItem>
-                  
+
                   <NavigationMenuItem>
                     <Link href="#" legacyBehavior passHref>
                       <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
@@ -163,12 +163,12 @@ export default function Header() {
                           <h4 className="font-medium mb-2">{device}</h4>
                           <ul className="space-y-2 pl-4">
                             <li>
-                              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+                              <Link href={`/extended-warranty?device=${device}`} className="text-sm text-muted-foreground hover:text-foreground">
                                 Extended Warranty
                               </Link>
                             </li>
                             <li>
-                              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+                              <Link href={`/maintenance?device=${device}`} className="text-sm text-muted-foreground hover:text-foreground">
                                 Maintenance & Repair
                               </Link>
                             </li>

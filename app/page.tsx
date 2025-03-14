@@ -170,7 +170,7 @@ export default function Home() {
             <div className="flex flex-col justify-center">
               <h2 className="mb-6 text-4xl font-bold text-white">About Us</h2>
               <p className="text-lg text-white/60">
-                At Elite Hardware Services, we're committed to providing exceptional technology solutions
+                At Elite Hardware Services, we&apos;re committed to providing exceptional technology solutions
                 that enhance your daily life. With years of expertise in hardware services and maintenance,
                 we ensure your devices perform at their best. Our team of certified professionals delivers
                 reliable, efficient, and sustainable solutions tailored to your needs.
@@ -204,9 +204,9 @@ export default function Home() {
             <Card className="text-center bg-white/5 border-white/10">
               <CardContent className="p-8">
                 <p className="mb-6 text-lg text-white/60">
-                  "Elite Hardware Services exceeded all our expectations. Their team's expertise and
-                  professionalism made our smart home setup seamless and efficient. We couldn't be
-                  happier with the results!"
+                  &quot;Elite Hardware Services exceeded all our expectations. Their team&apos;s expertise and
+                  professionalism made our smart home setup seamless and efficient. We couldn&apos;t be
+                  happier with the results!&quot;
                 </p>
                 <p className="font-semibold text-white">Sarah Johnson</p>
                 <p className="text-sm text-white/40">Smart Home Client</p>
